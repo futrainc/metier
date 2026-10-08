@@ -210,7 +210,7 @@ body.nav-open .nav-toggle .icon-close { display: block; }
 @media (max-width: 860px) { .team-grid { grid-template-columns: 1fr; } }
 .person { display: flex; flex-direction: column; background: #fff; border: 1px solid var(--line); border-radius: 20px; padding: 2rem; box-shadow: var(--shadow); }
 .person__top { display: flex; gap: 1.25rem; align-items: center; margin-bottom: 1.25rem; }
-.person__photo { width: 112px; height: 112px; flex: none; border-radius: 50%; object-fit: cover; border: 3px solid var(--gold); background: var(--tint); }
+.person__photo { width: 120px; height: 120px; flex: none; border-radius: 50%; object-fit: cover; padding: 5px; background: linear-gradient(135deg, #F3D58A, var(--gold) 45%, #A87A1F 70%, #E4B75A); box-shadow: 0 4px 14px rgba(168, 122, 31, .35); }
 .person__name { margin: 0 0 .2rem; font-size: 1.25rem; }
 .person__role { margin: 0; color: var(--gold-ink); font-family: var(--font-head); font-weight: 600; font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; }
 .person__bio p { color: var(--muted); font-size: .98rem; }
